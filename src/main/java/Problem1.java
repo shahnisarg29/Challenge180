@@ -1,6 +1,17 @@
+/*
+Problem Statement : Given an Integer array with a specified range find the number which repeats itself.
+Input : n : the range
+        array : from 1-n and one extra number from the range
+Output : Display the Repeating Number
+Constraints :
+Time : O(n)
+Space : O(1)
+ */
+
+
 import java.util.Scanner;
 
-public class DuplicateOne {
+public class Problem1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
